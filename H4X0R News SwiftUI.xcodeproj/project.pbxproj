@@ -11,6 +11,10 @@
 		CFEC1EFD28624B8300C1D788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC1EFC28624B8300C1D788 /* ContentView.swift */; };
 		CFEC1EFF28624B8500C1D788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEC1EFE28624B8500C1D788 /* Assets.xcassets */; };
 		CFEC1F0228624B8500C1D788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEC1F0128624B8500C1D788 /* Preview Assets.xcassets */; };
+		CFEC1F0A2862549100C1D788 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC1F092862549100C1D788 /* NetworkManager.swift */; };
+		CFEC1F0D2862569300C1D788 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC1F0C2862569300C1D788 /* PostData.swift */; };
+		CFEC1F10286260EB00C1D788 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC1F0F286260EB00C1D788 /* DetailView.swift */; };
+		CFEC1F122862654900C1D788 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC1F112862654800C1D788 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CFEC1EFC28624B8300C1D788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFEC1EFE28624B8500C1D788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEC1F0128624B8500C1D788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFEC1F092862549100C1D788 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CFEC1F0C2862569300C1D788 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		CFEC1F0F286260EB00C1D788 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CFEC1F112862654800C1D788 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				CFEC1EFA28624B8300C1D788 /* H4X0R_News_SwiftUIApp.swift */,
-				CFEC1EFC28624B8300C1D788 /* ContentView.swift */,
+				CFEC1F0E286260DB00C1D788 /* Views */,
+				CFEC1F082862547000C1D788 /* Models */,
 				CFEC1EFE28624B8500C1D788 /* Assets.xcassets */,
 				CFEC1F0028624B8500C1D788 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				CFEC1F0128624B8500C1D788 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFEC1F082862547000C1D788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC1F092862549100C1D788 /* NetworkManager.swift */,
+				CFEC1F0C2862569300C1D788 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFEC1F0E286260DB00C1D788 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC1EFC28624B8300C1D788 /* ContentView.swift */,
+				CFEC1F0F286260EB00C1D788 /* DetailView.swift */,
+				CFEC1F112862654800C1D788 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFEC1F0A2862549100C1D788 /* NetworkManager.swift in Sources */,
+				CFEC1F0D2862569300C1D788 /* PostData.swift in Sources */,
 				CFEC1EFD28624B8300C1D788 /* ContentView.swift in Sources */,
+				CFEC1F122862654900C1D788 /* WebView.swift in Sources */,
+				CFEC1F10286260EB00C1D788 /* DetailView.swift in Sources */,
 				CFEC1EFB28624B8300C1D788 /* H4X0R_News_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
